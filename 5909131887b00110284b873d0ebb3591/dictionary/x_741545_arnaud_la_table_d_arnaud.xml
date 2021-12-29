@@ -3,5 +3,7 @@
         <element attributes="edge_encryption_enabled=true" choice="1" label="Idea type" max_length="40" name="idea_type" type="string">
             <choice/>
         </element>
+        <element label="New File Attachment" max_length="40" name="u_file_attachment_2" type="file_attachment"/>
+        <element attributes="edge_encryption_enabled=true" label="New Date" mandatory="true" max_length="40" name="u_glide_date_1" type="glide_date"/>
     </element>
 </database>
